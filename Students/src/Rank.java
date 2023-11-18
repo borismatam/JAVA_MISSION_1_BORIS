@@ -49,6 +49,10 @@ public class Rank {
      * Calculates averages per subject for all students in the group.
      */
     public void CalculateAverage(){
+        avgSQL = 0;
+        avgEnglish=0;
+        avgJava=0;
+        avgMath =0;
         for(int i = 0; i < actual; i++){
             avgJava += students[i].getJavaScore();
             avgSQL += students[i].getSQLScore();
@@ -127,7 +131,7 @@ public class Rank {
         catch(Exception e){
             e.printStackTrace();
         }
-        
+        CalculateAverage();
         return rank;
     }
 

@@ -7,6 +7,7 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
+    in this folder would be found the models of student, rank and their test. Also the main class App wich is the maun to run the proyect
 - `lib`: the folder to maintain dependencies
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
